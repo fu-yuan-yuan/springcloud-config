@@ -1,8 +1,7 @@
 # 不同的开发环境，不同的微服务名字
 spring:
   profiles:
-    active:
-    - dev
+    active: dev
 ---
 spring:
   profiles: dev     #开发环境
